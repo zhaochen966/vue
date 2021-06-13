@@ -18,7 +18,8 @@
             <div class="search_bar" v-on:click="searchMusic">
                 <img src="images/player_title.png" alt="" />
                 <!-- 搜索歌曲 -->
-                <input type="text" autocomplete="off" v-model="searchKey" @keyup.enter="searchMusic"/>
+                <input type="text" autocomplete="off" v-model="searchKey" 
+                       placeholder="音乐/视频/电台/用户" @keyup.enter="searchMusic"/>
             </div>
             <div class="center_con">
                 <!-- 搜索歌曲列表 -->
